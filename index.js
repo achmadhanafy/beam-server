@@ -8,6 +8,9 @@ require('dotenv').config()
 app.use(express.json())
 app.use(cors())
 
+app.get('/', function(request, response) {
+    response.send('Hello World!');
+    });
 app.use('/api/v1',router)
 
 app.listen(process.env.PORT || port, ()=> console.log(`App listening at http://localhost:${port}`))
