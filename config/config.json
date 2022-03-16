@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "didisudi",
+    "database": "beam-app",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "protocol":"postgres",
+    "port":"5432"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "saliakscjyuggp",
+    "password": "c502f4370b42fb7890e9d4b8d41205f093d73f339ca1beac479154ec5312772e",
+    "database": "d98gbco22hsa08",
+    "host": "ec2-34-192-83-52.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "protocol":"postgres",
+    "port":"5432"
+  }
+}
